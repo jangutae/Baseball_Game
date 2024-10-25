@@ -41,7 +41,7 @@ public class BaseballGame {
                 // try문 안에 if문 조건에 맞으면 catch문을 실행
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
-                break;
+                return play();
             }
 
             // String 타입을 int 타입으로 변환
